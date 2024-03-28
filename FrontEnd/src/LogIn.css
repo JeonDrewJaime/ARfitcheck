@@ -1,0 +1,13 @@
+.body {
+  
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.logo {
+    width: 30%; /* Make the image fill the container horizontally */
+    height: 30%; /* Make the image fill the container vertically */
+    object-fit: cover; /* Preserve aspect ratio; cover the container */
+    
+}
