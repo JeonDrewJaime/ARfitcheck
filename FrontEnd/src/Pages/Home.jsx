@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import Footer from '../Components/Footer.jsx';
-import Navbar from '../WIdgets/Navbar.jsx';
 import {Box,Grid} from '@mui/material';
 import { Typography, Button, Pagination, Card, CardActionArea, CardMedia, CardContent, Paper} from '@mui/material';
 import Slider from 'react-slick';
@@ -142,7 +140,6 @@ function Home() {
     </Box>
 
     <Typography sx = {{fontFamily: "Kanit", fontSize: 30, fontWeight: "bold", textAlign: "center", color: "white", pt: 4}}>CATEGORIES</Typography>
-      <Footer />
     </div>
   );
 }

@@ -5,19 +5,17 @@
 	padding: 0;
 }
 :root {
+
 	--hue: 223;
 	--bg: black;
 	--fg: black;
-	--primary: white;
+	--primary: black;
 	--trans-dur: 0.3s;
 	font-size: calc(16px + (20 - 16) * (100vw - 320px) / (1280 - 320));
 }
 
 body {
-	background-color: var(--bg);
-	transition:
-		background-color var(--trans-dur),
-		color var(--trans-dur);
+	background-color: black;
 }
 .preloader {
 	text-align: center;
