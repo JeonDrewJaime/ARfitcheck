@@ -5,7 +5,7 @@ import {
 import PreLoader from '../../Components/PreLoader';
 import * as React from 'react';
 import OrderHistoryTable from '../../Components/Tables/OrderHistoryTable';
-
+import Details from '../../Components/Details';
 function OrderHistory() {
   const [isLoading, setIsLoading] = React.useState(true);
   // Sample orders data
@@ -28,6 +28,12 @@ function OrderHistory() {
         <PreLoader />
       ) : (
         <Box m={2} height="100vh">
+        
+            <Details
+            //avatarUrl={} for avatar bro
+  name="John Doe"
+  email="john.doe@example.com"
+/>
           <Typography sx={{ fontFamily: 'Kanit', fontSize: 50, fontWeight: 'bold', color: 'black', paddingY: '1vh' }}>
             Order History
           </Typography>

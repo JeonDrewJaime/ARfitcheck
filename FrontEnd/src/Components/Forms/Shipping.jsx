@@ -135,6 +135,13 @@ function Shipping() {
               </Field>
             </Grid>
             <Grid item xs={12}>
+              <Grid container spacing={2} justifyContent="flex-end">
+                <Grid item xs={12}>
+                  <FilledButton type="submit" disabled={isSubmitting} fullWidth>
+                    UPDATE SHIPPING DETAILS
+                  </FilledButton>
+                </Grid>
+              </Grid>
             </Grid>
           </Grid>
         </Form>

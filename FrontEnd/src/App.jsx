@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div >
-     <Checkout/>
+     <SuperAdmin/>
      </div>
   )
 }

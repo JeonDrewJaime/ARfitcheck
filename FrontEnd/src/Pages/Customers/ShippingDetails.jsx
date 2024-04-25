@@ -2,6 +2,7 @@ import React from 'react';
 import { TextField, Grid, Typography, Box } from '@mui/material';
 import Shipping from '../../Components/Forms/Shipping';
 import PreLoader from '../../Components/PreLoader';
+import Details from '../../Components/Details';
 function ShippingDetails() {
   const [isLoading, setIsLoading] = React.useState(true);
 
@@ -39,6 +40,12 @@ function ShippingDetails() {
         <PreLoader />
       ) : (
       <Box m={2} height="100vh">
+      
+            <Details
+            //avatarUrl={} for avatar bro
+  name="John Doe"
+  email="john.doe@example.com"
+/>
        <Typography sx={{ fontFamily: 'Kanit', fontSize: 50, fontWeight: 'bold', color: 'black', paddingY: '1vh' }}>
             Shipping Details
           </Typography>

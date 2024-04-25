@@ -10,6 +10,7 @@ import * as React from 'react';
 import ChangePassword from '../../Components/Forms/ChangePassword';
 import ProfileInformation from '../../Components/Forms/ProfileInformation';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import Details from '../../Components/Details';
 function AccountSettings() {
   const [isLoading, setIsLoading] = React.useState(true);
   React.useEffect(() => {
@@ -25,6 +26,10 @@ function AccountSettings() {
         <PreLoader />
       ) : (
         <Box m={2} height="100vh">
+            <Details
+  name="John Doe"
+  email="john.doe@example.com"
+/>
           <Typography sx={{ fontFamily: 'Kanit', fontSize: 50, fontWeight: 'bold', color: 'black', paddingY: '1vh' }}>
             Account Settings
           </Typography>
