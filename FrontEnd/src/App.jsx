@@ -8,13 +8,14 @@ import Cart from './Pages/Cart.jsx'
 import './App.css'
 import ProductDescription from './Pages/Customers/ProductDescription.jsx'
 import Checkout from './Pages/Customers/Checkout.jsx'
+import OrderSuccess from './Pages/Customers/OrderSuccess.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div >
-     <SuperAdmin/>
+     <OrderSuccess/>
      </div>
   )
 }
